@@ -31,4 +31,12 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'sso' => [
+    'server_url' => env('SSO_SERVER_URL'),
+    'client_id' => env('SSO_CLIENT_ID'),
+    'client_secret' => env('SSO_CLIENT_SECRET'),
+    'redirect_uri' => env('SSO_REDIRECT_URI'),
+    ],
+
+
 ];
